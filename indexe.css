@@ -1,0 +1,49 @@
+*{
+    margin:0;
+    padding :  0;
+    
+}
+#container-head{
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    /* justify-items: center; */
+    background-color: blue;
+    border: 5px solid yellow;
+
+}
+#container-head a{
+    /* justify-content: center !important; 
+    align-items: center !important; */
+    padding: 20px !important;
+    border: 2px solid yellow !important;
+    margin: 10px !important;
+    text-decoration:wavy;
+
+    color: red;
+
+}
+container-head a :hover{
+   background-color: yellow;
+   color: pink;
+   width: 20px;
+}
+
+ /* a{
+        transform: rotate(-45deg); /* Rotate by 45 degrees */
+      /* }   */ 
+
+      @keyframes container-head  a{
+        40% { transform: rotate(0deg) !important ; }
+        100% { transform: rotate(360deg) !important; }
+      }
+      a{
+        display: static;
+        margin: 20px;
+      }
+      a{
+        width: 100px;
+        height: 100px;
+        background-color: green;
+        animation: orbit 10s linear infinite !important; /* 5 seconds for one full rotation */
+      }
